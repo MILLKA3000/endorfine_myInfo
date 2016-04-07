@@ -1,0 +1,29 @@
+{
+  "name": "endorfine_myInfo",
+  "homepage": "https://github.com/MILLKA3000/endorfine_myInfo",
+  "authors": [
+    "Mukolajko <borusyuk_kolya@ukr.net>"
+  ],
+  "description": "info site",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "endorfine",
+    "site"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.3"
+  }
+}
