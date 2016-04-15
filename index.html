@@ -12,15 +12,18 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <td>Test</td>
-                            <td>Format</td>
+                            <td>Назва тренування</td>
+                            <td>Детальніше</td>
+                            <td>Дата</td>
+
                         </tr>
                     </thead>
                     <tbody>
 
-                        <tr ng-repeat="data in userData.training">
-                            <td>{{data.name}}</td>
-                            <td>{{data.id_events}}</td>
+                        <tr ng-repeat="data in userData.events">
+                            <td>{{data.title}}</td>
+                            <td>{{data.description}}</td>
+                            <td>{{data.start}}</td>
                         </tr>
                     </tbody>
                 </table>

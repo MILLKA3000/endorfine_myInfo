@@ -42,6 +42,7 @@ App.controller("UserController", function($scope, $http){
             console.log("Get admin.success!");
             console.log(res);
             $scope.userData = res.data;
+            $scope.userData.events = JSON.parse($scope.userData.events);
         }, (function(res){
             console.log("Error");
             console.log(res);
